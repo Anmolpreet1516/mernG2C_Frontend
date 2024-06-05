@@ -98,7 +98,7 @@ function FindGrower(){
         //alert(JSON.stringify(serverMsg.data.result));
         setFindGrowerPg(false);
         setResult(serverMsg.data.result);
-        setPrev(`http://localhost:2004/uploads/${serverMsg.data.result.adhaarpic}`);
+        setPrev(`https://mern-project-g-2-c-1.onrender.com/uploads/${serverMsg.data.result.adhaarpic}`);
         setGrowerCards(true);
 
       }
